@@ -3,7 +3,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
   MatButtonModule,
   MatSidenavModule,
-  MatIconModule
+  MatIconModule,
+  MatMenuModule,
+  MatToolbarModule,
+  MatTabsModule
 } from '@angular/material';
 
 @NgModule({
@@ -11,15 +14,19 @@ import {
     BrowserAnimationsModule,
     MatButtonModule,
     MatSidenavModule,
-    MatIconModule
-
+    MatIconModule,
+    MatMenuModule,
+    MatToolbarModule,
+    MatTabsModule
   ],
   exports: [
     BrowserAnimationsModule,
     MatButtonModule,
     MatSidenavModule,
-    MatIconModule
-
+    MatIconModule,
+    MatMenuModule,
+    MatToolbarModule,
+    MatTabsModule
 
   ],
 })
