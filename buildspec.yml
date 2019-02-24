@@ -15,7 +15,7 @@ phases:
   build:
     commands:
       - npm run build:ci
-      - npm run test:ci
+      # - npm run test:ci
   post_build:
     commands:
       - aws s3 sync ./dist/ng-playground s3://angular-cloudformation-stack-prod --acl 'public-read' --delete
